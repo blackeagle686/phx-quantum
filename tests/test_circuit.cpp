@@ -94,8 +94,12 @@ TEST(step_by_step_execution) {
 
     // Step 2: H|+> = |0>
     more = c.step();
-    ASSERT_TRUE(!more);  // No more steps
+    ASSERT_TRUE(more);  // step() returns true = it executed an op
     ASSERT_TRUE(approx_equal(c.state()(0,0), C_ONE));
+
+    // Step 3: no more ops
+    more = c.step();
+    ASSERT_TRUE(!more);
 }
 
 TEST(three_qubit_ghz) {
