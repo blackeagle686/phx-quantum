@@ -1,10 +1,10 @@
-Start testing: May 12 16:45 Egypt Summer Time
+Start testing: May 12 16:46 Egypt Summer Time
 ----------------------------------------------------------
 1/6 Testing: test_matrix
 1/6 Test: test_matrix
 Command: "C:/Users/The_Last_King/OneDrive/Documents/Projects/phx-quantum/build/tests/Release/test_matrix.exe"
 Directory: C:/Users/The_Last_King/OneDrive/Documents/Projects/phx-quantum/build/tests
-"test_matrix" start time: May 12 16:45 Egypt Summer Time
+"test_matrix" start time: May 12 16:46 Egypt Summer Time
 Output:
 ----------------------------------------------------------
   [RUN ] identity_2x2
@@ -40,10 +40,10 @@ Output:
   Results: 13 passed, 0 failed
 
 <end of output>
-Test time =   0.29 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"test_matrix" end time: May 12 16:45 Egypt Summer Time
+"test_matrix" end time: May 12 16:46 Egypt Summer Time
 "test_matrix" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -51,7 +51,7 @@ Test Passed.
 2/6 Test: test_qubit
 Command: "C:/Users/The_Last_King/OneDrive/Documents/Projects/phx-quantum/build/tests/Release/test_qubit.exe"
 Directory: C:/Users/The_Last_King/OneDrive/Documents/Projects/phx-quantum/build/tests
-"test_qubit" start time: May 12 16:45 Egypt Summer Time
+"test_qubit" start time: May 12 16:46 Egypt Summer Time
 Output:
 ----------------------------------------------------------
   [RUN ] default_is_zero
@@ -73,10 +73,10 @@ Output:
   Results: 6 passed, 0 failed
 
 <end of output>
-Test time =   0.21 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"test_qubit" end time: May 12 16:45 Egypt Summer Time
+"test_qubit" end time: May 12 16:46 Egypt Summer Time
 "test_qubit" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -84,7 +84,7 @@ Test Passed.
 3/6 Test: test_gates
 Command: "C:/Users/The_Last_King/OneDrive/Documents/Projects/phx-quantum/build/tests/Release/test_gates.exe"
 Directory: C:/Users/The_Last_King/OneDrive/Documents/Projects/phx-quantum/build/tests
-"test_gates" start time: May 12 16:45 Egypt Summer Time
+"test_gates" start time: May 12 16:46 Egypt Summer Time
 Output:
 ----------------------------------------------------------
   [RUN ] all_gates_unitary
@@ -110,10 +110,10 @@ Output:
   Results: 8 passed, 0 failed
 
 <end of output>
-Test time =   0.18 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"test_gates" end time: May 12 16:45 Egypt Summer Time
+"test_gates" end time: May 12 16:46 Egypt Summer Time
 "test_gates" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -121,7 +121,7 @@ Test Passed.
 4/6 Test: test_circuit
 Command: "C:/Users/The_Last_King/OneDrive/Documents/Projects/phx-quantum/build/tests/Release/test_circuit.exe"
 Directory: C:/Users/The_Last_King/OneDrive/Documents/Projects/phx-quantum/build/tests
-"test_circuit" start time: May 12 16:45 Egypt Summer Time
+"test_circuit" start time: May 12 16:46 Egypt Summer Time
 Output:
 ----------------------------------------------------------
   [RUN ] initial_state_is_zero
@@ -135,20 +135,20 @@ Output:
   [RUN ] swap_gate
   [PASS] swap_gate
   [RUN ] step_by_step_execution
-  [FAIL] step_by_step_execution: Assertion failed: !more
+  [PASS] step_by_step_execution
   [RUN ] three_qubit_ghz
   [PASS] three_qubit_ghz
 
   === PHX-Quantum Circuit Tests ===
 
 
-  Results: 6 passed, 1 failed
+  Results: 7 passed, 0 failed
 
 <end of output>
-Test time =   0.21 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
-Test Failed.
-"test_circuit" end time: May 12 16:45 Egypt Summer Time
+Test Passed.
+"test_circuit" end time: May 12 16:46 Egypt Summer Time
 "test_circuit" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -156,7 +156,7 @@ Test Failed.
 5/6 Test: test_measurement
 Command: "C:/Users/The_Last_King/OneDrive/Documents/Projects/phx-quantum/build/tests/Release/test_measurement.exe"
 Directory: C:/Users/The_Last_King/OneDrive/Documents/Projects/phx-quantum/build/tests
-"test_measurement" start time: May 12 16:45 Egypt Summer Time
+"test_measurement" start time: May 12 16:46 Egypt Summer Time
 Output:
 ----------------------------------------------------------
   [RUN ] deterministic_zero
@@ -176,10 +176,10 @@ Output:
   Results: 5 passed, 0 failed
 
 <end of output>
-Test time =   0.06 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"test_measurement" end time: May 12 16:45 Egypt Summer Time
+"test_measurement" end time: May 12 16:46 Egypt Summer Time
 "test_measurement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -187,7 +187,7 @@ Test Passed.
 6/6 Test: test_tensor
 Command: "C:/Users/The_Last_King/OneDrive/Documents/Projects/phx-quantum/build/tests/Release/test_tensor.exe"
 Directory: C:/Users/The_Last_King/OneDrive/Documents/Projects/phx-quantum/build/tests
-"test_tensor" start time: May 12 16:45 Egypt Summer Time
+"test_tensor" start time: May 12 16:46 Egypt Summer Time
 Output:
 ----------------------------------------------------------
   [RUN ] construction
@@ -213,11 +213,11 @@ Output:
   Results: 8 passed, 0 failed
 
 <end of output>
-Test time =   0.06 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"test_tensor" end time: May 12 16:45 Egypt Summer Time
+"test_tensor" end time: May 12 16:46 Egypt Summer Time
 "test_tensor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 12 16:45 Egypt Summer Time
+End testing: May 12 16:46 Egypt Summer Time
