@@ -1,0 +1,8 @@
+test_matrix 1 0.293885
+test_qubit 1 0.210612
+test_gates 1 0.178779
+test_circuit 0 0
+test_measurement 1 0.0559454
+test_tensor 1 0.0635353
+---
+test_circuit
