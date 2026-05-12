@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\The_Last_King\OneDrive\Documents\Projects\phx-quantum\build\CMakeFiles\1e24f785db510dc1f0b16c3f6d17483f\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FFD6E689-B868-3EF8-ACCE-9BDDE09F03FB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
