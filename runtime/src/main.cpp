@@ -1,6 +1,12 @@
 // =====================================================================
 //  PHX-Quantum :: CLI Entry Point
 // =====================================================================
+#ifdef _WIN32
+#define NOMINMAX
+#define WIN32_LEAN_AND_MEAN
+#include <windows.h>
+#endif
+
 #include "quantum/qubit.h"
 #include "quantum/gates.h"
 #include "quantum/circuit.h"
@@ -14,7 +20,11 @@
 using namespace phx;
 
 static void print_banner() {
-    std::cout << R"(
+    // ANSI escape code for Navy Purple (Indigo-like)
+    const char* navy_purple = "\033[38;2;100;80;255m";
+    const char* reset = "\033[0m";
+
+    std::cout << navy_purple << R"(
   ╔═══════════════════════════════════════════════════════════╗
   ║                                                           ║
   ║   ██████╗ ██╗  ██╗██╗  ██╗       ██████╗ ██╗   ██╗       ║
@@ -27,7 +37,7 @@ static void print_banner() {
   ║          Pure CPU Quantum State Simulator v0.1            ║
   ║                                                           ║
   ╚═══════════════════════════════════════════════════════════╝
-)" << std::endl;
+)" << reset << std::endl;
 }
 
 static void run_bell_state(size_t shots) {
@@ -155,6 +165,10 @@ static void print_usage() {
 }
 
 int main(int argc, char* argv[]) {
+#ifdef _WIN32
+    SetConsoleOutputCP(CP_UTF8);
+#endif
+
     print_banner();
 
     std::string command = "help";
