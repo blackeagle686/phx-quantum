@@ -1,6 +1,5 @@
 # PHX-Quantum ⚛️
 
-
 **Pure CPU Quantum State Simulator** — A from-scratch quantum computing simulator built in C++17 with no external dependencies.
 
 Simulates 1–16 qubit quantum systems with full gate support, circuit execution, and measurement simulation using Born's rule.
