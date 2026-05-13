@@ -15,7 +15,7 @@ Welcome to the technical documentation for **PHX-Quantum**, a pure CPU quantum s
 5. [Math Engine: Kronecker Products](math_engine.md)
    - How the simulator scales state vectors and operators.
 
-## 🚀 The Core Concept
+## The Core Concept
 
 PHX-Quantum simulates quantum mechanics using **State Vector Simulation**. 
 - A system of $n$ qubits is represented by a complex vector of size $2^n$.
